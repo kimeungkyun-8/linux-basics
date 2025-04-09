@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo 'Line 1 /n - Line 2 /n - Line3' > multiLine.txt
+echo 'Line 1\nLine 2\nLine 3' > multiLine.txt
+head -n 3 multiLine.txt
